@@ -2,11 +2,21 @@
 <html>
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <%- include("partials/head")  %> 
   </head>
   <body>
     <%- include("partials/navigation") %> 
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+
+    <main class="container vh-99 pt-2 d-flex justify-content-center align-items-center text-center">
+      <section class="display-7">
+        <h1 class="display-1">About</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis consequuntur ducimus distinctio, maiores eos maxime nostrum accusamus asperiores molestiae quo rem dignissimos hic atque fugit, natus cum harum eaque ea!
+        Quos in id cumque, cupiditate, odit omnis laboriosam doloremque optio dolores corporis illo, nisi magnam eos tempore adipisci earum labore. Error dolores cum ullam quisquam obcaecati. Quidem error omnis ipsum!
+        Accusamus inventore id quaerat ratione sequi recusandae optio libero beatae. Velit quis voluptates dignissimos magni nisi harum rerum iusto labore aperiam aut, deleniti maxime vero aliquid debitis rem iure expedita?
+        Dicta cupiditate neque ducimus sequi sed voluptatibus vel ipsam. Maiores aspernatur laudantium facere unde ducimus perferendis obcaecati adipisci delectus. Cumque minus expedita quidem, in autem consectetur vitae aspernatur a dolores!
+        Eos cum voluptate minus. Maiores quos cupiditate aspernatur. Quisquam vel corporis ratione facilis adipisci inventore, possimus ut. Dolorum nam culpa, atque temporibus architecto alias quis voluptates earum dignissimos fugiat quibusdam.</p>
+      </section>
+    </main>
+
   </body>
 </html>
